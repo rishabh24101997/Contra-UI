@@ -1,0 +1,68 @@
+name: Contra
+description: A new Flutter project.
+
+ 
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^0.1.3
+  flutter_icons: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.8.1
+ 
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/logo.png"
+
+flutter:
+
+  
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/
+
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: fonts/Montserrat-Medium.ttf
+          weight: 500
+        - asset: fonts/Montserrat-MediumItalic.ttf
+          weight: 500
+          style: italic
+        - asset: fonts/Montserrat Bold.ttf
+          weight: 700
+        - asset: fonts/Montserrat-BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: fonts/Montserrat-ExtraBold.ttf
+          weight: 800
+        - asset: fonts/Montserrat-ExtraBoldItalic.ttf
+          weight: 700
+          style: italic
